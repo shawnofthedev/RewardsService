@@ -7,7 +7,7 @@ from Login import TestLogin
 from RandomSearch import RandomSeach
 import time
 
- class TestRewards():
+class TestRewards():
  
     # Setup webdriver and navigate to bing
     driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()))
